@@ -15,7 +15,7 @@
 **Installer** : ajoutez ce dépôt dans HACS comme dépôt personnalisé (voir [Installation](#installation)). Une idée,
 un problème ? [Ouvrir une demande](https://github.com/astraeos-dev/Celeste_HA/issues/new/choose).
 
-**Projet actif** · un des projets d'Astraeos : [site web](https://astraeos-dev.github.io/personnal-site/#/celeste-ha) ·
+**Projet actif** · un des projets d'Astraeos : [site web](https://astraeos-dev.github.io/Gaia/#/celeste-ha) ·
 [Céleste](https://github.com/astraeos-dev/Celeste_App) · [Helios](https://github.com/astraeos-dev/Helios) ·
 [Météo & Confort](https://github.com/astraeos-dev/meteo_confort)
 
