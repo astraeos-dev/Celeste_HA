@@ -1,6 +1,6 @@
 """Calcul local des éphémérides avec Astronomy Engine (Don Cross, licence MIT).
 
-C'est le même moteur que le site Gaïa (https://astraeos-dev.github.io/personnal-site/).
+C'est le même moteur que le site Gaïa (https://astraeos-dev.github.io/Gaia/).
 Aucune connexion réseau : les positions sont calculées sur la machine Home Assistant.
 Fonctions synchrones, à appeler dans un exécuteur (hass.async_add_executor_job).
 """
