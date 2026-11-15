@@ -1,19 +1,28 @@
-# Céleste pour Home Assistant
+<p align="center"><img src="assets/brand/icon.svg" width="128" height="128" alt="Céleste pour Home Assistant"></p>
+
+# Céleste pour Home Assistant — éphémérides et visibilité des astres
 
 > Éphémérides du Soleil, de la Lune, des planètes, des astéroïdes et des comètes, et temps astronomique,
 > sous forme de capteurs Home Assistant.
 
-![HACS](https://img.shields.io/badge/HACS-personnalisé-orange)
-![Licence](https://img.shields.io/badge/Licence-MIT-green)
-![Vérifications](https://github.com/Greg50100/Celeste_HA/actions/workflows/ci.yml/badge.svg)
+[![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5)](https://hacs.xyz/docs/faq/custom_repositories/)
+[![Tests](https://github.com/astraeos-dev/Celeste_HA/actions/workflows/ci.yml/badge.svg)](https://github.com/astraeos-dev/Celeste_HA/actions/workflows/ci.yml)
+[![Licence MIT](https://img.shields.io/github/license/astraeos-dev/Celeste_HA?label=licence)](LICENSE)
+![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2024.12%2B-41BDF5?logo=homeassistant)
 
-**Projet actif** · fait partie de la famille Ganymede : [site web](https://greg50100.github.io/personnal-site/) ·
-[application Android](https://github.com/Greg50100/Ganymede) · [Céleste (bureau)](https://github.com/Greg50100/Celeste_App)
+<a href="https://buymeacoffee.com/gregorychau"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" height="40"></a>
 
-Céleste réunit les deux intégrations d'astronomie précédentes : celle-ci (service en ligne de l'IMCCE) et
-[ha-meeus-astronomy](https://github.com/Greg50100/ha-meeus-astronomy) (jour julien et calendrier de Jean Meeus).
+**Installer** : ajoutez ce dépôt dans HACS comme dépôt personnalisé (voir [Installation](#installation)). Une idée,
+un problème ? [Ouvrir une demande](https://github.com/astraeos-dev/Celeste_HA/issues/new/choose).
+
+**Projet actif** · un des projets d'Astraeos : [site web](https://astraeos-dev.github.io/personnal-site/#/celeste-ha) ·
+[Céleste](https://github.com/astraeos-dev/Celeste_App) · [Helios](https://github.com/astraeos-dev/Helios) ·
+[Météo & Confort](https://github.com/astraeos-dev/meteo_confort)
 
 ---
+
+Céleste réunit les deux intégrations d'astronomie précédentes : celle-ci (service en ligne de l'IMCCE) et
+[ha-meeus-astronomy](https://github.com/astraeos-dev/ha-meeus-astronomy) (jour julien et calendrier de Jean Meeus).
 
 ## Trois types de suivi
 
@@ -95,7 +104,7 @@ Les identifiants d'entités dépendent du nom de l'appareil : vérifiez-les dans
 
 ### Avec HACS
 
-1. HACS → menu ⋮ → **Dépôts personnalisés** → ajoutez `https://github.com/Greg50100/Celeste_HA`, catégorie **Intégration**.
+1. HACS → menu ⋮ → **Dépôts personnalisés** → ajoutez `https://github.com/astraeos-dev/Celeste_HA`, catégorie **Intégration**.
 2. Recherchez **Céleste**, installez, puis redémarrez Home Assistant.
 3. Paramètres → Appareils et services → **Ajouter une intégration** → **Céleste**.
 
